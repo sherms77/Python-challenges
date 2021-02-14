@@ -1,0 +1,41 @@
+# Flow of execution sample - How to think like a cs P.63
+# 1. Evaluate the condition, yielding 0 or 1.
+# 2. If the condition is False (0), exit the while statement and continue execution at the next statement.
+# 3. If the condition is True (1), execute each of the statements in the body then go back to step 1.
+
+# Createrow - Flow of execution v1
+# 1. Function has two paramaters, n and row.
+# 2. Sets the condition for i, i will be range 1 to n+1.
+# 3. Number in i variable starts with 1 and iterates. 
+# 4. Every iteration of i multiplies the argument passed to the row paramater.
+# 5. Every iterative result of i*row prints to the screen.
+# 6. Condition is checked and repeated until its met.
+# 7. When the condition is met, loop ends.
+# 8. New line is printed.
+
+# Createtable - Flow of exection v1
+# 1. Function has two parameters, height and width.
+# 2. Sets the condition for i, i will be range 1 to height+1.
+# 3. Createrow function is called.
+# 4. Createrow function takes arguments width and i.
+# 5. Width is passed to n in createrow.
+# 6. i is passed to row in createrow.
+# 7. Createrows is executed until its condition is met.
+# 8. Returns to Createtable function.
+
+100221: I ONLY SAW THIS ANGIE'S COMMENT TODAY BY ACCIDENT.
+100221: ACCORDING TO ANGIE, I DON'T UNDERSTAND WHAT THE FUNCTION DOES. 
+100221: REFER TO mult-table-flow-of-exec-Angie-H.txt.
+100221: MY NOTES BELOW.
+
+# Createrow - Flow of execution v2 - mutlTable2_AngieH.py
+# 1. Evaluate condition, is i in range 1 to n+1?
+# 2. If yes, i multiplies row, tabs each result, prints on single line.
+# 3. If i is less than n+1, execute each statement in body and go back to step 1.
+# 4. When condition is met, exit the for statement and execute the next statement.
+
+# Createtable - Flow of execution v2
+# 1. Evaluate condition, is i in range 1 to height+1?
+# 2. If yes, call Createrow function.
+# 3. If i is less than height+1, execute each statement in the body.
+# 4. When condition is met, exit the for statement.

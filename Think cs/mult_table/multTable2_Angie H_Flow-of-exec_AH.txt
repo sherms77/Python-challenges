@@ -1,0 +1,18 @@
+Date: 16/11/21
+
+Hey Sherman.
+I don’t think you are quite understanding what the function does.
+I rewrote your notes for you to have a read through to understand. You can have /t or the “ “, I just used spaces, you can omit them if using tab.
+
+# Flow of execution
+# 1. Call createtable function, pass in height & row
+# 2. Set a loop counter from 1 to height+1 (range is exclusive, so it will have height loops)
+# 3. For each loop, call createrow function, passing in the width for the row, and the row number (i).
+# 4. Set a loop counter from 1 to n+1 (range is exclusive, so it will have n loops)
+# 5. print row data; row number (row) * i. (e.g. ixn = 1x2, 2x2, 3x2 etc), end with a tab
+# 6. repeat print & calculation n times to complete the row
+# 7. print a line break, to begin next row
+# 8. finished row
+# 9. return to createtable function for more rows if required
+# 10. - The function needs to be called at (height, row) to create the correct dimensions for the table.
+Create row needs to be called with (width, row-number) in order to calculate the math for each row. e.g. (width, i)
