@@ -7,5 +7,4 @@ edabit.
 HackerRank.
 
 # Status
-Active. Working on: Python if-Else. 
-Path: Python challenges/HackeRank/Python if-Else
+Active. Working on: Python if-Else (HackerRank). Not started: abecedarian (Think cs).
