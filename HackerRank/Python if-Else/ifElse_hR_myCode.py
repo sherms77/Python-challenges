@@ -1,11 +1,4 @@
-# refer to /home/sherms/HackerRank/Python/Python if-Else/README.txt
 import math, os, random, re, sys
-
-# invalid(x): constraint 1 <= n <= 100
-# rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
-
-# NEXT STEP: Create rules 2 and 3
-# ISSUE: main(200) gives two outputs: 'invalid input' and 'outside of range' - look into.
 
 def invalid(x):
     if x <= 1 or x >= 100:
