@@ -1,4 +1,3 @@
-# refer to /home/sherms/HackerRank/Python/Python if-Else/README.txt
 # code from hackerRank
 import math, os, random, re, sys
 

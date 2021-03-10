@@ -1,7 +1,41 @@
+RULES
+Rule 1: if n is odd print Weird
+Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+Rule 4: if n is even and greater than 20 print Not Weird
+Invalid input: constraints: 1 <= n <= 100.
+
 STEPS
-# NEXT STEP: Create rules 2 and 3
-# ISSUE: main(200) gives two outputs: 'invalid input' and 'outside of range' - look into.
+1.Create rule for invalid input - DONE
+2.Create function for rule 1
+3.Create function for rule 2
+4.Create function for rule 3
 
 NOTES
-# invalid(x): constraint 1 <= n <= 100
-# rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
+100321: WORKING ON STEP 2 - RULE 1 FUNCTION. Invalid syntax error. Refer to failed code --100321--.
+ISSUE: main(200) gives two outputs: 'invalid input' and 'outside of range' - look into.
+invalid(x): constraint 1 <= n <= 100
+rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
+
+FALIED CODE
+
+--100321--
+def rule_one(w):
+    even = w%2 == 0
+    if w is not == even: # Invalid syntax error
+        print('Weird')
+    else:
+        print('This is an even number.')
+
+rule_one(6) # out[6]: Weird
+rule_one(7) # out[7]: This is an even number.
+
+def rule_one(w):
+    even = w%2 == 0
+    if w is not != even: # Invalid syntax error
+        print('Weird')
+    else:
+        print('This is an even number.')
+
+rule_one(6) # out[6]: Weird
+rule_one(7) # out[7]: This is an even number.
