@@ -12,17 +12,26 @@ STEPS
 4.Create function for rule 3
 
 NOTES
-100321: WORKING ON STEP 2 - RULE 1 FUNCTION. Invalid syntax error. Refer to failed code --100321--.
+100321: WORKING ON STEP 2 - RULE 1 FUNCTION. Refer to line 30.
 ISSUE: main(200) gives two outputs: 'invalid input' and 'outside of range' - look into.
 invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
-FALIED CODE
+FALIED CODE | DESCENDING ORDER
 
 --100321--
 def rule_one(w):
+    if w != w%2:
+        print('Weird')
+    else:
+        print('This is an even number.')
+
+rule_one(6) # works - out[6]: Weird
+rule_one(7) # DOES NOT WORK: outputs Weird | SHOULD BE: out[7]: This is an even number.
+
+def rule_one(w):
     even = w%2 == 0
-    if w is not == even: # Invalid syntax error
+    if w is not != even: # Invalid syntax error
         print('Weird')
     else:
         print('This is an even number.')
@@ -32,7 +41,7 @@ rule_one(7) # out[7]: This is an even number.
 
 def rule_one(w):
     even = w%2 == 0
-    if w is not != even: # Invalid syntax error
+    if w is not == even: # Invalid syntax error
         print('Weird')
     else:
         print('This is an even number.')

@@ -9,15 +9,15 @@ def invalid(v):
 # invalid(700) # works - out[700]: invalid input
 # invalid(10) # works - out[10]: valid
 
+# RULE_ONE DOES NOT WORK | Refer to comment on line 20.
 def rule_one(w):
-    even = w%2 == 0
-    if w is not != even: # Invalid syntax error
+    if w != w%2:
         print('Weird')
     else:
         print('This is an even number.')
 
-rule_one(6) # out[6]: Weird
-rule_one(7) # out[7]: This is an even number.
+rule_one(6) # works - out[6]: Weird
+rule_one(7) # DOES NOT WORK: outputs Weird | SHOULD BE: out[7]: This is an even number.
 
 def rule_two(x):
     if x in range(2,5) and (x%2) == 0:
