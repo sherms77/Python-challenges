@@ -1,17 +1,19 @@
 RULES
+Invalid input: constraints: 1 <= n <= 100
 Rule 1: if n is odd print Weird
 Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
 Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
 Rule 4: if n is even and greater than 20 print Not Weird
-Invalid input: constraints: 1 <= n <= 100.
 
 STEPS
-1.Create rule for invalid input - DONE
+1.Create rule for invalid input: constraints - DONE
 2.Create function for rule 1 - DONE
-3.Create function for rule 2 - UPTO HERE.
-4.Create function for rule 3
+3.Create function for rule 2 - DONE
+4.Create function for rule 3 - UPTO HERE
+5.Create function for rule 4
 
 NOTES
+120321: Finsihed step 3. UPTO STEP 4.
 110321: Finished step 2. UPTO STEP 3. Consider putting all code into one function when finished.
 100321: WORKING ON STEP 2 - RULE 1 FUNCTION. Refer to line 30.
 ISSUE: main(200) gives two outputs: 'invalid input' and 'outside of range' - look into.

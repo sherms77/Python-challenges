@@ -11,29 +11,38 @@ def invalid(v):
 
 def rule_one(w):
     even = w%2
-    if even == 0:
+    if even != 0:
         print('Weird')
     else:
-        print('Even number.')
+        print('Even number')
 
-rule_one(6) # works - out[6]: Weird
-rule_one(7) # works - out[7]: Even number.
+# rule_one(3) # works - out[3]: Weird
+# rule_one(6) # works - out[7]: Even number
 
 def rule_two(x):
     if x in range(2,5) and (x%2) == 0:
         print('Not Weird')
     else:
-        print('outside of range')
+        print('Outside of range')
+
+# rule_two(2) # works - out[2]: Not weird
+# rule_two(4) # works - out[2]: Not weird
+# rule_two(10) # works - out[10]: Outside of range
+# rule_two(3) # works - out[3]: Outside of range
 
 def rule_three(y):
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
     pass
 
 def rule_four(z):
     pass
- 
+
 def main(n):
-    invalid(n)
-    rule_one(n)
+    # might create new file and put all functions into one function.
+    # arguments need to pass different rules for correct output.
+
+    # invalid(n)
+    # rule_one(n)
     
 # main(3) # [out]: 'invalid input'
 # main(3) # [out]: 'Not Weird'
