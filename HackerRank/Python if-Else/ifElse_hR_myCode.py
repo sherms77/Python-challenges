@@ -30,10 +30,19 @@ def rule_two(x):
 # rule_two(10) # works - out[10]: Outside of range
 # rule_two(3) # works - out[3]: Outside of range
 
+# Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
 def rule_three(y):
-    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
-    pass
+    if y in range(6,20) and (y%2) == 0:
+        print('Weird')
+    else:
+        print('Outside of range')
 
+# rule_three(10) # works - out[10]: Weird
+rule_three(7) # works - out[7]: Outside of range
+rule_three(3) # works - out[3]: Outside of range
+rule_three(84) # works - out[84]: Outside of range
+
+'''
 def rule_four(z):
     pass
 
@@ -49,3 +58,4 @@ def main(n):
 
 # rule_one(3) # [out]: blank
 # rule_one(200) # [out]: 'Invalid input'
+'''

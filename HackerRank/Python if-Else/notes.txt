@@ -9,10 +9,13 @@ STEPS
 1.Create rule for invalid input: constraints - DONE
 2.Create function for rule 1 - DONE
 3.Create function for rule 2 - DONE
-4.Create function for rule 3 - UPTO HERE
-5.Create function for rule 4
+4.Create function for rule 3 - DONE
+5.Create function for rule 4 - UPTO HERE
+6.Combine functions into one function.
+7.Test in HackerRank editor.
 
 NOTES
+130321: Finsihed step 4. UPTO STEP 5.
 120321: Finsihed step 3. UPTO STEP 4.
 110321: Finished step 2. UPTO STEP 3. Consider putting all code into one function when finished.
 100321: WORKING ON STEP 2 - RULE 1 FUNCTION. Refer to line 30.
