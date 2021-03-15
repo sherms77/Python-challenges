@@ -10,14 +10,19 @@ STEPS
 2.Create function for rule 1 - DONE
 3.Create function for rule 2 - DONE
 4.Create function for rule 3 - DONE
-5.Create function for rule 4 - UPTO HERE
-6.Combine functions into one function.
+5.Create function for rule 4 - DONE
+6.Combine functions into one function. UP TO HERE.
 7.Test in HackerRank editor.
 
 NOTES
-130321: Finsihed step 4. UPTO STEP 5.
-120321: Finsihed step 3. UPTO STEP 4.
-110321: Finished step 2. UPTO STEP 3. Consider putting all code into one function when finished.
+150321: Try two methods to combine functions:
+    1.Use main function and call each function in main, and
+    2.Put code from all functions into one function.
+    SEE WHICH ONE WORKS BETTER. 
+150323: Finished step 5. UP TO STEP 6.
+130321: Finsihed step 4. UP TO STEP 5.
+120321: Finsihed step 3. UP TO STEP 4.
+110321: Finished step 2. UP TO STEP 3. Consider putting all code into one function when finished.
 100321: WORKING ON STEP 2 - RULE 1 FUNCTION. Refer to line 30.
 ISSUE: main(200) gives two outputs: 'invalid input' and 'outside of range' - look into.
 invalid(x): constraint 1 <= n <= 100
