@@ -15,6 +15,8 @@ STEPS
 7.Test in HackerRank editor.
 
 NOTES
+160321: UP TO STEP 6. REFER TO ifElse_hr_myCode(2).py.
+160321: Method 1 for step 6 failed. Refer to failed code 160321. Will try method 2. Refer to ifElse_hr_myCode(2).py.
 150321: Try two methods to combine functions:
     1.Use main function and call each function in main, and
     2.Put code from all functions into one function.
@@ -29,6 +31,22 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--160321--
+# Combine functions into one function
+# Method 1: Call each function in main function
+def main(n):
+    # 160321: i don't think this will work bc the argument will get passed to each function and the operation will be performed accordingly.
+    invalid(n)
+    rule_one(n)
+    rule_two(n)
+    rule_three(n)
+    rule_four(n)
+
+main(3) # DOES NOT WORK AS INTENDED - out[3]: Weird
+# 160321: As above, the argument is processed by each function and relevant output given.
+# 160321: Need to make conditional so only one output is given.
+# 160321: Will try method 2.
 
 --110321--
 def rule_one(w):

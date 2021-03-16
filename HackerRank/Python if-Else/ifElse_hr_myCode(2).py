@@ -1,49 +1,35 @@
+# step 6 | method 2
 import math, os, random, re, sys
 
-# Invalid input: constraints: 1 <= n <= 100
-def invalid(v):
-    if v <= 1 or v >= 100:
+def main_combined(a):
+    even = a%2
+
+    # invalid input_constraint: 1 <= n <= 100
+    if a <= 1 or a >= 100:
         print('Invalid input')
     else:
         print('Valid')
 
-# invalid(700) # works - out[700]: invalid input
-# invalid(10) # works - out[10]: valid
-
-# Rule 1: if n is odd print Weird
-def rule_one(w):
-    even = w%2
+    # Rule 1: if n is odd print Weird
+    # even = a%2
     if even != 0:
         print('Weird')
     else:
         print('Even number')
 
-# rule_one(3) # works - out[3]: Weird
-# rule_one(6) # works - out[7]: Even number
-
-# Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
-def rule_two(x):
-    if x in range(2,5) and (x%2) == 0:
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    if a in range(2,5) and even == 0: # (a%2) == 0: - replaced with even variable
         print('Not Weird')
     else:
         print('Outside of range')
 
-# rule_two(2) # works - out[2]: Not weird
-# rule_two(4) # works - out[2]: Not weird
-# rule_two(10) # works - out[10]: Outside of range
-# rule_two(3) # works - out[3]: Outside of range
-
-# Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
-def rule_three(y):
-    if y in range(6,20) and (y%2) == 0:
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    if a in range(6,20) and even == 0: # (y%2) == 0: - replaced with even variable
         print('Weird')
     else:
         print('Outside of range')
 
-# rule_three(10) # works - out[10]: Weird
-# rule_three(7) # works - out[7]: Outside of range
-# rule_three(3) # works - out[3]: Outside of range
-# rule_three(84) # works - out[84]: Outside of range
+# 160321: UP TO RULE 4
 
 # Rule 4: if n is even and greater than 20 print Not Weird
 def rule_four(z):
