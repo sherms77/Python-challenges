@@ -11,10 +11,16 @@ STEPS
 3.Create function for rule 2 - DONE
 4.Create function for rule 3 - DONE
 5.Create function for rule 4 - DONE
-6.Combine functions into one function. UP TO HERE.
-7.Test in HackerRank editor.
+6.Go over probelm spec and intended output.
+7.Draw flow chart.
+8.Combine functions into one function. UP TO HERE.
+9.Test in HackerRank editor.
 
 NOTES
+170321: ADDED TWO NEW STEPS. NOW UP TO STEP 6 - APPLYING METHOD 2 TO STEP 8.
+170321: Need to only have one output based on correct rule. Needs to break out of loop when it meets relevant rule.
+170321: Go over problem spec and expected output again. One argument can meet more than one rule.
+170321: Refer to failed code 170321 and comments in ifElse_hr_myCode(2).py.
 160321: UP TO STEP 6. REFER TO ifElse_hr_myCode(2).py.
 160321: Method 1 for step 6 failed. Refer to failed code 160321. Will try method 2. Refer to ifElse_hr_myCode(2).py.
 150321: Try two methods to combine functions:
@@ -31,6 +37,92 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--170321--
+# step 6 | method 2
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # invalid input_constraint: 1 <= n <= 100
+    if a <= 1 or a >= 100:
+        print('Invalid input')
+    
+    '''
+    # 170321: REMOVED ELSE STATEMENT SO NO OUTPUT IF VALID.
+    else:
+        print('Valid')
+    '''
+
+    # Rule 1: if n is odd print Weird
+    # even = a%2
+    if even != 0:
+        print('Weird')
+    else:
+        print('Even number')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    if a in range(2,5) and even == 0: # (a%2) == 0: - replaced with even variable
+        print('Not Weird')
+    else:
+        print('Outside of range')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    if a in range(6,20) and even == 0: # (y%2) == 0: - replaced with even variable
+        print('Weird')
+    else:
+        print('Outside of range')
+
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    if a > 20 and (a%2) == 0:
+        print('Not Weird')
+    else:
+        print('Number is less than 20 or odd')
+
+main_combined(3) # 160321: DOES NOT WORK AS INTENDED. CHECKS AGAINST EACH RULE AND GIVES RELEVANT OUTPUT - out[3]: Weird
+# main_combined(24) # out[24]: Not weird
+
+--170321--
+# step 6 | method 2
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # invalid input_constraint: 1 <= n <= 100
+    if a <= 1 or a >= 100:
+        print('Invalid input')
+    else:
+        print('Valid')
+
+    # Rule 1: if n is odd print Weird
+    # even = a%2
+    if even != 0:
+        print('Weird')
+    else:
+        print('Even number')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    if a in range(2,5) and even == 0: # (a%2) == 0: - replaced with even variable
+        print('Not Weird')
+    else:
+        print('Outside of range')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    if a in range(6,20) and even == 0: # (y%2) == 0: - replaced with even variable
+        print('Weird')
+    else:
+        print('Outside of range')
+
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    if a > 20 and (a%2) == 0:
+        print('Not Weird')
+    else:
+        print('Number is less than 20 or odd')
+
+main_combined(3) # 160321: DOES NOT WORK AS INTENDED. CHECKS AGAINST EACH RULE AND GIVES RELEVANT OUTPUT - out[3]: Weird
+# main_combined(24) # out[24]: Not weird
 
 --160321--
 # Combine functions into one function
