@@ -11,12 +11,15 @@ STEPS
 3.Create function for rule 2 - DONE
 4.Create function for rule 3 - DONE
 5.Create function for rule 4 - DONE
-6.Go over probelm spec and intended output.
-7.Draw flow chart.
-8.Combine functions into one function. UP TO HERE.
+6.Go over probelm spec and intended output. - DONE: Refer to notes 180321.
+7.Draw flow chart. UP TO HERE.
+8.Combine functions into one function. IN PROGRESS.
 9.Test in HackerRank editor.
 
 NOTES
+180321: UP TO STEP 7.
+180321: Tried in HackerRank editor. Did not work, wrong answer. Multiple outputs for in[3]. Should only be single output. Ie: out[3]: Weird.
+180321: Looked at problem spec again. It might work with multiple outputs. Will try code in HackerRank editor.
 170321: ADDED TWO NEW STEPS. NOW UP TO STEP 6 - APPLYING METHOD 2 TO STEP 8.
 170321: Need to only have one output based on correct rule. Needs to break out of loop when it meets relevant rule.
 170321: Go over problem spec and expected output again. One argument can meet more than one rule.
