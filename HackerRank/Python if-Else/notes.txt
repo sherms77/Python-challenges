@@ -12,11 +12,20 @@ STEPS
 4.Create function for rule 3 - DONE
 5.Create function for rule 4 - DONE
 6.Go over probelm spec and intended output. - DONE: Refer to notes 180321.
-7.Draw flow chart. UP TO HERE.
-8.Combine functions into one function. IN PROGRESS.
-9.Test in HackerRank editor.
+7.Assess if I can combine rules to get single outputs. DONE.
+8.Draw diagram. NOT STARTED.
+9.Combine functions into one function. DONE.
+10.Test in HackerRank editor. UP TO HERE | IN PROGRESS.
 
 NOTES
+190321: UP TO STEP 10.
+190321: I get strange results with test cases. If I:
+    a.don't call function, I fail both tests.
+    b.call function with both inputs it fails.
+    c.call with one input, it passes the one being called and fails the other. (refer to screenshots).
+190321: Ran in HackerRank editor. Passed 1/2 test cases. Test case 0 works in[3] out[3]: Weird. Case 1 in[24] out[24]: Weird, should  be Not Weird.
+190321: Added new step. UP TO STEP 7 (NEW STEP).
+190321: I think I can combine the rules to get required single outputs. Will try this first then assess if I need to draw a diagram.
 180321: UP TO STEP 7.
 180321: Tried in HackerRank editor. Did not work, wrong answer. Multiple outputs for in[3]. Should only be single output. Ie: out[3]: Weird.
 180321: Looked at problem spec again. It might work with multiple outputs. Will try code in HackerRank editor.
@@ -40,6 +49,53 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--180321--
+TESTED IN HackerRank EDITOR.
+DID NOT WORK - WRONG ANSWER.
+
+# step 6 | method 2
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # invalid input_constraint: 1 <= n <= 100
+    # no output if input valid
+    if a <= 1 or a >= 100:
+        print('Invalid input')
+    
+    # Rule 1: if n is odd print Weird
+    if even != 0:
+        print('Weird')
+    else:
+        print('Even number')
+
+    # 170321: I NEED IT TO BREAK OUT OF FUNCTION IF IT MEETS ONE RULE?
+    # 170321: DRAW FLOW CHART.
+    # 170321: GO OVER PROBLEM SPEC AND INTENDED OUTPUT AGAIN. 
+    # 170321: ONE ARGUMENT CAN MEET MORE THAN ONE RULE.
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    if a in range(2,5) and even == 0: # (a%2) == 0: - replaced with even variable
+        print('Not Weird')
+    else:
+        print('Outside of range')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    if a in range(6,20) and even == 0: # (y%2) == 0: - replaced with even variable
+        print('Weird')
+    else:
+        print('Outside of range')
+
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    if a > 20 and (a%2) == 0:
+        print('Not Weird')
+    else:
+        print('Number is less than 20 or odd')
+
+main_combined(3) # 160321: DOES NOT WORK AS INTENDED. CHECKS AGAINST EACH RULE AND GIVES RELEVANT OUTPUT - out[3]: Weird
+# main_combined(24) # out[24]: Not weird
 
 --170321--
 # step 6 | method 2
