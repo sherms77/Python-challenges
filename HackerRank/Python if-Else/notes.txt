@@ -18,6 +18,13 @@ STEPS
 10.Test in HackerRank editor. UP TO HERE | IN PROGRESS.
 
 NOTES
+210321: Investigate further Monday-Tuesday. If I can't work out, ask Kavita or group.
+210321: My thinking is wrong for the notes dates 210321 (excpet the first one) below. 24 should be Not Weird based on rule 4 24 is greater than 20 and won't be in range 6 to 20.
+210321: WRONG - There is a conflict with rules 3 and 4. Rule 4 will give output of Not Weird if the number is greater than 20 and is even which is the case for 24. Rule 4 overrides rule 3.
+210321: WRONG - So in[24]: Not Weird is incorrect based on rule 3. Need to modify.
+210321: WRONG - Rule 3 means that 24 (which is even) the output should be Weird.
+210321: WRONG - Reviewed rules again. Rule 3 says "if n is enen and in inclusive range of 6 to 20 print Weird."
+210321: ifElse_hr_myCode(3).py - for input: 24 I get correct output: Not Weird but in HackerRank editor it fails and outputs: Weird?
 190321: UP TO STEP 10.
 190321: I get strange results with test cases. If I:
     a.don't call function, I fail both tests.
