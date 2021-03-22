@@ -18,6 +18,9 @@ STEPS
 10.Test in HackerRank editor. UP TO HERE | IN PROGRESS.
 
 NOTES
+220321: STILL ON STEP 10.
+220321: My code in ifElse_hr_myCode(3).py works but it does not work in HackerRank editor. Don't know why. I get correct output for in[3]: Weird and in[24]: Not Weird.
+220321: Tried changing last elif statement to else statement. Did not work. Refer to ifElse_hr_myCode(4).py.
 210321: Investigate further Monday-Tuesday. If I can't work out, ask Kavita or group.
 210321: My thinking is wrong for the notes dates 210321 (excpet the first one) below. 24 should be Not Weird based on rule 4 24 is greater than 20 and won't be in range 6 to 20.
 210321: WRONG - There is a conflict with rules 3 and 4. Rule 4 will give output of Not Weird if the number is greater than 20 and is even which is the case for 24. Rule 4 overrides rule 3.
@@ -56,6 +59,45 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--220321--
+CHANGED LAST ELIF STATEMENT TO ELSE TO TEST.
+DID NOT WORK.
+
+# step 6 | method 2
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # constraint: 1 <= n <= 100 | no output if input invalid
+    if a <= 1 or a >= 100:
+        print('Invalid input')
+    
+    # Rule 1: if n is odd print Weird
+    elif even != 0:
+        print('Weird')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif a in range(2,5) and even == 0: 
+        print('Not Weird')
+    
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif a in range(6,20) and even == 0:
+        print('Weird')
+    
+    # 220321
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    # changed to else
+    else: 
+        print('hello') # this works
+        '''
+        a > 20 and (a%2) == 0:
+            print('Not Weird')
+        '''
+
+# main_combined(3) # works - out[3]: Weird
+main_combined(24) # changed last elif to else, didn't work. Should be - out[24]: Not weird
 
 --180321--
 TESTED IN HackerRank EDITOR.
