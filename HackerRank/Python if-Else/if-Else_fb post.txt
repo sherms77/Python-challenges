@@ -1,0 +1,17 @@
+I'm working on a Python HackerRank challenge and I'm unable to past the test cases.
+I coded the solution out in vs code and obtained the correct output using the test cases.
+The test cases are: out[3]: Weird and out[24]: Not Weird.
+However, when I test the code in the HackerRank editor, it does not pass the test cases and I get a wrong answer. I get mixed results when I try variations on calling the function. I have tried:
+1.Using no function calls - I fail both test cases.
+2.Using one function call - I pass the test case for the input I used in the function call and fail the other.
+3.Calling the function twice with each input - I pass one test case and fail the other.
+4.Used the custom input option with one input - I get a message that says complilation is a success but there is no stdout.
+5.Used the custom input option with both inputs - I get a message that says complilation is a success but there is no stdout.
+
+Link to challenge and my code is below.
+Note: I'm using Python 3.
+
+If anyone can tell me what I'm doing wrong and how I can get the code to pass the test cases that would be great. Thanks.
+
+link to challenge: https://www.hackerrank.com/challenges/py-if-else/problem
+link to code: https://github.com/sherms77/Python-challenges/blob/main/HackerRank/Python%20if-Else/ifElse_hr_myCode(3).py

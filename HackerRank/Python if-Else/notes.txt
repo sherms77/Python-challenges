@@ -18,6 +18,7 @@ STEPS
 10.Test in HackerRank editor. UP TO HERE | IN PROGRESS.
 
 NOTES
+230321: Asked for help from fb groups. Posted in: Python, Python Hub and Amigoscode. Also sent to Kavita. Wait for responses. Refer to if-Else_fb post.txt.
 220321: STILL ON STEP 10.
 220321: My code in ifElse_hr_myCode(3).py works but it does not work in HackerRank editor. Don't know why. I get correct output for in[3]: Weird and in[24]: Not Weird.
 220321: Tried changing last elif statement to else statement. Did not work. Refer to ifElse_hr_myCode(4).py.

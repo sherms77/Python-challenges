@@ -2,7 +2,6 @@
 Python coding challenges.
 
 # Sources
-How to think like a computer scientist: Learning with Python - Apr 2002: First edition. | edabit.com. | HackerRank.
 1. How to think like a computer scientist: Learning with Python - Apr 2002: First edition.
 2. edabit.com. 
 3. HackerRank.
