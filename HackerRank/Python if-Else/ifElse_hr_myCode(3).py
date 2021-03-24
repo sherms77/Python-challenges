@@ -25,4 +25,9 @@ def main_combined(a):
         print('Not Weird')
     
 # main_combined(3) # works - out[3]: Weird
-main_combined(24) # works - out[24]: Not weird
+# main_combined(24) # works - out[24]: Not weird
+
+# 240321: tried these inputs based on suggestion from person in fb grp: Amigoscode
+# 240321: tested and replied in fb.
+main_combined(1) # works - out[1]: Invalid input - bc its <=1
+main_combined(100) # works - out[100]: Invalid input - bc its <=1

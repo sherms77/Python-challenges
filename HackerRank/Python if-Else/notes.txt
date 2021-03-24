@@ -18,6 +18,9 @@ STEPS
 10.Test in HackerRank editor. UP TO HERE | IN PROGRESS.
 
 NOTES
+240321: Corner cases (explanation given by person on fb): "corner cases are cases where your algorithm might find produce an error. It usually depends on the problem you're trying to solve, e.g. some difficult test cases that HR puts your program to test are corner cases"
+240321: Got a repsonse from Amigos code fb group. Was given refactored code and told that corner cases maybe rejecting my code on HR.
+240321: Got a response in Amigos code fb group asking what happens if you input 1 or 100. Tested  and replied. Refer to comments 240321 in ifElse_hr_myCode(3).py.
 230321: Asked for help from fb groups. Posted in: Python, Python Hub and Amigoscode. Also sent to Kavita. Wait for responses. Refer to if-Else_fb post.txt.
 220321: STILL ON STEP 10.
 220321: My code in ifElse_hr_myCode(3).py works but it does not work in HackerRank editor. Don't know why. I get correct output for in[3]: Weird and in[24]: Not Weird.
