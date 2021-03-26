@@ -11,19 +11,22 @@ STEPS
 3.Create function for rule 2 - DONE
 4.Create function for rule 3 - DONE
 5.Create function for rule 4 - DONE
-6.Go over probelm spec and intended output. - DONE: Refer to notes 180321.
+6.Go over problem spec and intended output. - DONE: Refer to notes 180321.
 7.Assess if I can combine rules to get single outputs. - DONE
 8.Draw diagram. SKIPPED. WON'T FINISH THIS STEP
 9.Combine functions into one function. - DONE
 10.Test in HackerRank editor. - DONE
-11.Understand and explain refactored code from fb users. - UPTO HERE
-12.Review invalid input issue from fb user. - NOT STARTED.
-13.Fix my code - Range issue. NOT STARTED.
-14.Decide which version of code to submit in HR. - NOT STARTED.
-15.Submit solution in HR. - NOT STARTED.
+11.Test my code in HR without wrapping in a function. - DONE | WORKS
+12.Understand and explain refactored code from fb users. - UPTO HERE
+13.Review invalid input issue from fb user. - NOT STARTED.
+14.Fix my code - Range issue. NOT STARTED.
+15.Decide which version of code to submit in HR. - NOT STARTED.
+16.Submit solution in HR. - NOT STARTED.
 
 NOTES
-250321: UPTO STEP 10.
+250321: Submitted in HR and did not wrap in a function. It works. Took screenshots.
+250321: Added new step - 11.Test my code in HR without wrapping in a function.
+250321: UPTO STEP 11.
 250321: Coded out both refactored solutions from fb users. They worked in HR. Don't know how to execute in vs code. Guessing I have to wrap in a function. Won't worry about it.
 250321: Will try refactored code solutions in vs code first and see if I can understand them before trying in HR.
 250321: Received another reply from Amigoscode fb group. My code is correct but problem with my range which fails the test cases in the HR.
