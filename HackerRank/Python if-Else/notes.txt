@@ -17,14 +17,18 @@ STEPS
 9.Combine functions into one function. - DONE
 10.Test in HackerRank editor. - DONE
 11.Test my code in HR without wrapping in a function. - DONE | WORKS
-12.Understand and explain refactored code from fb users. - UPTO HERE
-13.Review invalid input issue from fb user. - NOT STARTED.
-14.Fix my code - Range issue. NOT STARTED.
-15.Decide which version of code to submit in HR. - NOT STARTED.
+12.Understand and explain refactored code from fb users. - UP TO HERE
+13.Review invalid input issue from fb user. - NOT STARTED
+14.Fix my code - Range issue. - NOT STARTED
+15.Decide which version of code to submit in HR. - DONE | 270321: FAILED - Need to redo after steps 12-13.
 16.Submit solution in HR. - NOT STARTED.
 
 NOTES
-250321: Submitted in HR and did not wrap in a function. It works. Took screenshots.
+270321: UP TO STEP 12 AGAIN.
+270321: Submitted my code. It failed - hidden test cases. It failed 2/8 test cases. Will go back and do steps 12-13 and fix my code. Saved screenshot of failed submission in screenshots folder.
+270321: Decided to skip steps 12-14 and went to step 15. Will submit my code as I understand it and it works.
+270321: UP TO STEP 12.
+250321: Submitted in HR and did not wrap in a function. It works. Took screenshots. Refer to folder for screenshots.
 250321: Added new step - 11.Test my code in HR without wrapping in a function.
 250321: UPTO STEP 11.
 250321: Coded out both refactored solutions from fb users. They worked in HR. Don't know how to execute in vs code. Guessing I have to wrap in a function. Won't worry about it.
