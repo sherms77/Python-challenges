@@ -24,6 +24,11 @@ STEPS
 16.Submit solution in HR. - NOT STARTED.
 
 NOTES
+290321: TRYING TO FIX CONSTRAINT RULE IN MY CODE.
+290321: Looked at KJ's advice: "We can write 100 < a > 20...and yes it works." Will try it.
+290321: Code from fb users does not have a rule for the constraint? I'll try removing my constraint rule.
+290321: Changed rule for invalid input. Code didn't work. All outputs were invalid.
+290321: Before I work on step 12, I'll try to fix my code. Seems to be an error with the invalid input rule. Logic is incorrect for range.
 270321: UP TO STEP 12 AGAIN.
 270321: Submitted my code. It failed - hidden test cases. It failed 2/8 test cases. Will go back and do steps 12-13 and fix my code. Saved screenshot of failed submission in screenshots folder.
 270321: Decided to skip steps 12-14 and went to step 15. Will submit my code as I understand it and it works.
@@ -79,6 +84,123 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--290321--
+REMOVED CONSTRAINT RULE.
+GOT SYNTAX ERROR: INVALID SYNTAX.
+
+# step 6 | method 2
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    '''
+    # constraint: 1 <= n <= 100 | no output if input invalid
+    # constraint: n can't be below 1 or greater than 100.
+    if 1 <= a <=100: # 290321: changed rule - DOES NOT WORK ALL OUTPUTS ARE INVALID. | if a <= 1 or a >= 100: # this range is not correct. its 'or' and should be between.
+        print('Invalid input')
+    '''
+    
+    # Rule 1: if n is odd print Weird
+    elif even != 0:
+        print('Weird')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif a in range(2,5) and even == 0: 
+        print('Not Weird')
+    
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif a in range(6,20) and even == 0:
+        print('Weird')
+    
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    elif a > 20 and (a%2) == 0:
+        print('Not Weird')
+    
+main_combined(3) # works - out[3]: Weird
+main_combined(24) # works - out[24]: Not weird
+
+# 240321: tried these inputs based on suggestion from person in fb grp: Amigoscode
+# 240321: tested and replied in fb.
+main_combined(1) # works - out[1]: Invalid input - bc its <=1
+main_combined(100) # works - out[100]: Invalid input - bc its <=1
+
+--290321--
+CHANGED RULE FOR INVALID INPUT.
+CODE DID WORK WORK.
+ALL OUTPUTS WERE INVALID.
+
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # constraint: 1 <= n <= 100 | no output if input invalid
+    if 1 <= a <=100: # 290321: changed rule - DOES NOT WORK ALL OUTPUTS ARE INVALID. | if a <= 1 or a >= 100: # this range is not correct. its 'or' and should be between.
+        print('Invalid input')
+    
+    # Rule 1: if n is odd print Weird
+    elif even != 0:
+        print('Weird')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif a in range(2,5) and even == 0: 
+        print('Not Weird')
+    
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif a in range(6,20) and even == 0:
+        print('Weird')
+    
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    elif a > 20 and (a%2) == 0:
+        print('Not Weird')
+    
+main_combined(3) # works - out[3]: Weird
+main_combined(24) # works - out[24]: Not weird
+
+# 240321: tried these inputs based on suggestion from person in fb grp: Amigoscode
+# 240321: tested and replied in fb.
+main_combined(1) # works - out[1]: Invalid input - bc its <=1
+main_combined(100) # works - out[100]: Invalid input - bc its <=1
+
+
+--270321--
+SUBMITTED CODE IN HR.
+FAILED HIDDEN TESTS. FAILED 2/8 TESTS.
+
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # constraint: 1 <= n <= 100 | no output if input invalid
+    if a <= 1 or a >= 100:
+        print('Invalid input')
+    
+    # Rule 1: if n is odd print Weird
+    elif even != 0:
+        print('Weird')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif a in range(2,5) and even == 0: 
+        print('Not Weird')
+    
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif a in range(6,20) and even == 0:
+        print('Weird')
+    
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    elif a > 20 and (a%2) == 0:
+        print('Not Weird')
+    
+# main_combined(3) # works - out[3]: Weird
+# main_combined(24) # works - out[24]: Not weird
+
+# 240321: tried these inputs based on suggestion from person in fb grp: Amigoscode
+# 240321: tested and replied in fb.
+main_combined(1) # works - out[1]: Invalid input - bc its <=1
+main_combined(100) # works - out[100]: Invalid input - bc its <=1
 
 --220321--
 CHANGED LAST ELIF STATEMENT TO ELSE TO TEST.

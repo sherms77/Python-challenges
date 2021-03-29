@@ -12,6 +12,9 @@ import math, os, random, re, sys
 # NEXT STEP: Understand and explain code.
 '''
 
+# 290321: no rule for constraint?
+# 290321: i think the constraint rule is applied through the ranges in lines 24 and 26
+
 if __name__ == '__main__':
     num = int(input().strip())
 

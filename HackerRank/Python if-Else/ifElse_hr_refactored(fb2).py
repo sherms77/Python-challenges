@@ -13,6 +13,9 @@ import math, os, random, re, sys
 # NEXT STEP: Understand and explain code.
 '''
 
+# 290321: no rule for constraint?
+# 290321: i think the constraint rule is applied through the even_condtions variables
+
 even_condition1= [i for i in range(2,6)] # range will stop at 5
 even_condition2= [i for i in range(6,21)]
 if __name__ == '__main__':
