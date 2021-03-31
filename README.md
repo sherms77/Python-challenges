@@ -7,6 +7,6 @@ Python coding challenges.
 3. HackerRank.
  
 # Status
-- Active. 
-- Working on: Python if-Else (HackerRank). 
-- Not started: abecedarian (Think cs).
+- Active
+- Working on: Python if-Else (HackerRank) 
+- Not started: abecedarian (Think cs)

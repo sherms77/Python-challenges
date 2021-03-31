@@ -24,6 +24,11 @@ STEPS
 16.Submit solution in HR. - NOT STARTED.
 
 NOTES
+310321: STILL TRYING TO FIX MY CODE RE: RANGE FOR INVALID INPUT RULE.
+310321: Still need to try and get my range rule correct.
+310321: Refer to fb users comments about my range for invalid input rule (both fb users).
+310321: Submitted KJs code in HR, didn't work.
+310321: Ran KJs code. It works.
 310321: KJ sent me her solution. Will review. Saved to KJ folder.
 290321: TRYING TO FIX CONSTRAINT RULE IN MY CODE.
 290321: Looked at KJ's advice: "We can write 100 < a > 20...and yes it works." Will try it.
