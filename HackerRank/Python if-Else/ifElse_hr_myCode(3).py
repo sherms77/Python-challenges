@@ -22,7 +22,7 @@ def main_combined(a):
     elif a > 20 and (a%2) == 0:
         print('Not Weird')
     
-main_combined(3) # out[3]: Weird
+main_combined(3) # out[3]: Weird - DOES NOT WORK OUT: Invalid input
 '''
 main_combined(24) # out[24]: Not weird
 main_combined(1) # out[1]: Invalid input
