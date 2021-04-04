@@ -24,7 +24,12 @@ STEPS
 16.Submit solution in HR. - NOT STARTED.
 
 NOTES
-020421: Submitted code from ifElse_hr-myCode(4).py in hr, it passed the test cases but failed 1/8 test cases when submitted.
+040421: Created new file ifElse_hr_myCode(6).py to run multiple test cases. RULE 2 DOES NOT WORK. NOT GETTING ANY OUTPUTS. NEED TO DEBUG.
+030421: Submitted modified code. Failed submission. Failed 3/8 test cases. Need to do more robust tests. Come with eight test cases.
+030421: Tested code with modified rule 1 in HR. Passed test cases.
+030421: Modified rule 1 to: elif n % 2 != 0. Works. in[1] out[1]: Weird.
+030421: Ran code. in[100] out[100]: Not Weird - Correct. in[1] out[1]: No output - Incorrect.
+020421: Submitted code from ifElse_hr-myCode(5).py in hr, it passed the test cases but failed 1/8 test cases when submitted.
 020421: refer to screenshot failed sub_010421.png.
 020421: Reverted ifElse_hr_mcCode(3).py to original working code. Will create new file and write fresh code.
 010421: STILL NEED TO FIX INVALID INPUT RULE IN MY CODE.
@@ -95,6 +100,33 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--030421--
+# 020421: submitted this code in hr, it passed the test cases but failed 1/8 test cases when submitted.
+# 020421: refer to screenshot failed sub_010421.png.
+# 030421: modified code in rule 1 from elif n != n%2 to elif n % 2 != 0.
+# 030421: it passed test cases but failed 3/8 test cases when I submitted it.
+
+import math, os, random, re, sys
+
+if __name__ == '__main__':
+    n = int(input('Enter number:').strip())
+    
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    if n > 20 and n%2 == 0:
+        print('Not Weird')
+
+    # Rule 1: if n is odd print Weird
+    elif n % 2 != 0:
+        print('Weird')
+    
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif n%2 in range (2,6):
+        print('Not Weird')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif n%2 in range (7,20):
+        print('Not Weird')
 
 --020421--
 # 020421: submitted this code in hr, it passed the test cases but failed 1/8 test cases when submitted.
