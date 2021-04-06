@@ -24,6 +24,8 @@ STEPS
 16.Submit solution in HR. - NOT STARTED.
 
 NOTES
+050421: rule2-test.py - INCORRECT OUTPUTS ALL 'Weird.'
+050421: Created rule 2 test file. Testing rule with test cases. rule2-test.py.
 040421: Created new file ifElse_hr_myCode(6).py to run multiple test cases. RULE 2 DOES NOT WORK. NOT GETTING ANY OUTPUTS. NEED TO DEBUG.
 030421: Submitted modified code. Failed submission. Failed 3/8 test cases. Need to do more robust tests. Come with eight test cases.
 030421: Tested code with modified rule 1 in HR. Passed test cases.
