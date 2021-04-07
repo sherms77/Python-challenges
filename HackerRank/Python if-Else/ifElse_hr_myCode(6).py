@@ -23,32 +23,32 @@ def evenOdd (n):
 # rule 1
 evenOdd(3) # out[3]: Weird - Correct
 evenOdd(1) # out[1]: Weird - Correct
+evenOdd(5) # out[5]: Weird  - Correct
 '''
 
 # rule 2
-# GOT ONE OUTPUT OF WEIRD. INCORRECT. NEED TO DEBUG TO SEE WHAT IS GOING ON.
 evenOdd(2) # out[2]: Not Weird
 evenOdd(4) # out[4]: Not Weird
-evenOdd(5) # out[5]: Not Weird
+# 070421: No output?
 
 '''
 # rule 3
-# out[rule 3]: Not Weird
-evenOdd(6) # 6 is not included in rules 2 or 3 but should be included in 3. modified to include 6.
-evenOdd(7)
-evenOdd(8)
-evenOdd(9)
-evenOdd(10)
-evenOdd(11)
-evenOdd(12)
-evenOdd(13)
-evenOdd(14)
-evenOdd(15)
-evenOdd(16)
-evenOdd(17)
-evenOdd(18)
-evenOdd(19)
-evenOdd(20)
+# the number 6 is not included in rules 2 or 3 but should be included in 3. modified to include 6.
+evenOdd(6) # out[6]: Not Weird 
+evenOdd(7) # out[7]: Weird
+evenOdd(8) # out[8]: Not Weird
+evenOdd(9) # out[9]: Weird
+evenOdd(10) # out[10]: Not Weird
+evenOdd(11) # out[11]: Weird
+evenOdd(12) # out[12]: Not Weird
+evenOdd(13) # out[13]: Weird
+evenOdd(14) # out[14]: Not Weird
+evenOdd(15) # out[15]: Weird
+evenOdd(16) # out[16]: Not Weird
+evenOdd(17) # out[17]: Weird
+evenOdd(18) # out[18]: Not Weird
+evenOdd(19) # out[19]: Weird
+evenOdd(20) # out[20]: Not Weird
 
 # rule 4
 evenOdd(24) # out[24]: Not Weird
