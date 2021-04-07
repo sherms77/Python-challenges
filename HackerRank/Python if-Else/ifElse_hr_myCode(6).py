@@ -13,11 +13,11 @@ def evenOdd (n):
         print('Weird')
     
     # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
-    elif n%2 in range (2,6):
+    elif n%2 and n in range (2,6):
         print('Not Weird')
 
     # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
-    elif n%2 in range (6,20): # elif n%2 in range (7,20):
+    elif n%2 and n in range (6,20): # elif n%2 in range (7,20):
         print('Not Weird')
 '''
 # rule 1
