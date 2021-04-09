@@ -24,6 +24,9 @@ STEPS
 16.Submit solution in HR. - NOT STARTED.
 
 NOTES
+090421: NEXT STEPS: TEST OUTPUTS FOR RULE 4 THEN TEST CASE BLOCK FOR RULE 1. THEN TEST ALL TOGETHER. THEN SEND TO KJ TO CHECK.
+090421: Tested outputs for rules 2 and 3. All works.
+090421: Updated rule 3 from "elif n%2 and n in range (6,20): # elif n%2 in range (7,20):" to "elif n%2 == 0 and n in range (6,20): # elif n%2 in range (7,20):" - NOW WORKS.
 090421: Updated rule 2 from "elif n%2 and n in range (2,6):" to "elif n%2 == 0 and n in range (2,6):" - NOW WORKS CORRECTLY.
 070421: Tested rule 2, no outputs. NEED TO INVESTIGATE. Refer to rule2-test.py.
 070421: Fixed rule 2 and applied same fix to rule 3. NEED TO TEST.
