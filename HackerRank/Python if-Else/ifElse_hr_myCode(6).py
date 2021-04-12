@@ -19,6 +19,7 @@ def evenOdd (n):
     # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
     elif n%2 == 0 and n in range (6,20): # elif n%2 in range (7,20):
         print('Not Weird')
+
 '''
 # rule 1
 evenOdd(3) # out[3]: Weird - Correct
@@ -41,6 +42,7 @@ evenOdd(2) # out[2]: Not Weird - Correct
 evenOdd(4) # out[4]: Not Weird - Correct
 '''
 
+'''
 # rule 3
 # the number 6 is not included in rules 2 or 3 but should be included in 3. modified to include 6.
 evenOdd(6) # out[6]: Not Weird 
@@ -53,9 +55,10 @@ evenOdd(18) # out[18]: Not Weird
 evenOdd(20) # out[20]: Not Weird
 
 # 090421: Tested outputs for rule 3 - ALL CORRECT
-
 '''
+
 # rule 4
 evenOdd(24) # out[24]: Not Weird
 evenOdd(100) # out[100]: Not Weird
-'''
+
+
