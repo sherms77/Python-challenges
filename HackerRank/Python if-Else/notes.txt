@@ -17,13 +17,21 @@ STEPS
 9.Combine functions into one function. - DONE
 10.Test in HackerRank editor. - DONE
 11.Test my code in HR without wrapping in a function. - DONE | WORKS
-12.Understand and explain refactored code from fb users. - UP TO HERE
-13.Review invalid input issue from fb user. - NOT STARTED
-14.Fix my code - Range issue. - NOT STARTED
+12.Understand and explain refactored code from fb users. - SKIPPED
+13.Review invalid input issue from fb user. - DONE | CONSULTED WITH KJ
+14.Fix my code - Range issue. - DONE
 15.Decide which version of code to submit in HR. - DONE | 270321: FAILED - Need to redo after steps 12-13.
-16.Submit solution in HR. - NOT STARTED.
+16.Modify to fix - DONE
+17.Test - DONE
+18.Send to KJ for review - DONE
+19.Review KJ's feedback - PENDING | UPTO HERE
+20.Modify based on KJ's feedback if required - NOT STARTED
+21.Submit solution in HR. - NOT STARTED.
 
 NOTES
+130421: Sent to KJ to review. Waiting for response. Also added new steps.
+130421: Tested all outputs. Appears to be correct. NEXT STEP: SEND TO KJ FOR REVIEW.
+130421: Tested outputs for case block in rule 1. CORRECT OUTPUTS. NEXT: TEST ALL CASES.
 120421: Tested outputs for rule 4. They all work. NEXT STEP: TEST CASE BLOCKK FOR RULE 1. THEN DO OTHER 2 STEPS OUTLINED IN LINE 28 (DIRECTLY BELOW).
 090421: NEXT STEPS: TEST OUTPUTS FOR RULE 4 THEN TEST CASE BLOCK FOR RULE 1. THEN TEST ALL TOGETHER. THEN SEND TO KJ TO CHECK.
 090421: Tested outputs for rules 2 and 3. All works.
