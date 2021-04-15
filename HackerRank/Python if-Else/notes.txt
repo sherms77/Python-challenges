@@ -24,11 +24,12 @@ STEPS
 16.Modify to fix - DONE
 17.Test - DONE
 18.Send to KJ for review - DONE
-19.Review KJ's feedback - PENDING | UPTO HERE
+19.Review KJs feedback - PENDING | UPTO HERE
 20.Modify based on KJ's feedback if required - NOT STARTED
 21.Submit solution in HR. - NOT STARTED.
 
 NOTES
+150421: Still waiting for KJs feedback. Ran tests again, all outputs correct.
 130421: Sent to KJ to review. Waiting for response. Also added new steps.
 130421: Tested all outputs. Appears to be correct. NEXT STEP: SEND TO KJ FOR REVIEW.
 130421: Tested outputs for case block in rule 1. CORRECT OUTPUTS. NEXT: TEST ALL CASES.
