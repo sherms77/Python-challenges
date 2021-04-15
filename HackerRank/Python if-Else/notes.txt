@@ -29,6 +29,7 @@ STEPS
 21.Submit solution in HR. - NOT STARTED.
 
 NOTES
+150421: Still waiting for KJs feedback. Ran tests again for ifElse_hr_myCode(6).py. All outputs correct.
 150421: Still waiting for KJs feedback. Ran tests again, all outputs correct.
 130421: Sent to KJ to review. Waiting for response. Also added new steps.
 130421: Tested all outputs. Appears to be correct. NEXT STEP: SEND TO KJ FOR REVIEW.
