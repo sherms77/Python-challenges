@@ -67,5 +67,5 @@ evenOdd(20) # out[20]: Not Weird
 evenOdd(24) # out[24]: Not Weird
 evenOdd(100) # out[100]: Not Weird
 # 120421: Tested outputs for rule 4 - ALL CORRECT
-# 220421: Moved rule 4 to top of function - works correctly
+# 250421: Moved rule 4 to top of function - works correctly
 '''

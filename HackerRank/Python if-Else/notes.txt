@@ -29,10 +29,11 @@ STEPS
 21.Submit solution in HR. - DOING
 
 NOTES
-220421: Submitted again. Code still did not work. Failed 3/8 test cases. (refer to failed code for edits).
-220421: Submitted again. Code still did not work. Failed 2/8 test cases.
-220421: Submitted again. Code still did not work. Failed 2/8 test cases.
-220421: Moved rule 4 to top of function - works correctly. Refer to ifElse_hr_mcCode(6).py.
+260421: Emailed KJ links to GitHub repo to review code.
+250421: Submitted again. Code still did not work. Failed 3/8 test cases. (refer to failed code for edits).
+250421: Submitted again. Code still did not work. Failed 2/8 test cases.
+250421: Submitted again. Code still did not work. Failed 2/8 test cases.
+250421: Moved rule 4 to top of function - works correctly. Refer to ifElse_hr_mcCode(6).py.
 250421: Submitted code. Did not work. 2/8 test cases failed.
 230421: NEXT STEP - STEP 21: SUBMIT.
 230421: discussed if-Else with KJ.
