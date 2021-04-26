@@ -24,11 +24,23 @@ STEPS
 16.Modify to fix - DONE
 17.Test - DONE
 18.Send to KJ for review - DONE
-19.Review KJs feedback - PENDING | UPTO HERE
-20.Modify based on KJ's feedback if required - NOT STARTED
-21.Submit solution in HR. - NOT STARTED.
+19.Review KJs feedback - DONE
+20.Modify based on KJ's feedback if required - DONE
+21.Submit solution in HR. - DOING
 
 NOTES
+220421: Submitted again. Code still did not work. Failed 3/8 test cases. (refer to failed code for edits).
+220421: Submitted again. Code still did not work. Failed 2/8 test cases.
+220421: Submitted again. Code still did not work. Failed 2/8 test cases.
+220421: Moved rule 4 to top of function - works correctly. Refer to ifElse_hr_mcCode(6).py.
+250421: Submitted code. Did not work. 2/8 test cases failed.
+230421: NEXT STEP - STEP 21: SUBMIT.
+230421: discussed if-Else with KJ.
+    she thought she already answered my question.
+    i said no, bc I sent her revised code after my last attempt.
+    she hasn't had time to look at it.
+    i said don't worry, I will just submit it.
+    i am 90-95% sure it will work.
 150421: Still waiting for KJs feedback. Ran tests again for ifElse_hr_myCode(6).py. All outputs correct.
 150421: Still waiting for KJs feedback. Ran tests again, all outputs correct.
 130421: Sent to KJ to review. Waiting for response. Also added new steps.
@@ -119,6 +131,133 @@ invalid(x): constraint 1 <= n <= 100
 rule_two(y): if n is even and in the within the range of 2 to 5 print "Not Weird"
 
 FALIED CODE | DESCENDING ORDER
+
+--250421--
+CODE FAILED - 3/8 TEST CASES FAILED.
+import math, os, random, re, sys
+
+def evenOdd (n):
+
+    # constraint = 1 <= n <= 100
+    if n > 1 and n < 100:
+   
+        # Rule 1: if n is odd print Weird
+        if n%2 != 0:
+            print('Weird')
+        
+        # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+        elif n%2 == 0 and n in range (2,6):
+            print('Not Weird')
+
+        # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+        elif n%2 == 0 and n in range (6,21): # elif n%2 in range (7,20):
+            print('Not Weird')
+
+        # Rule 4: if n is even and greater than 20 print Not Weird
+        elif n > 20 and n%2 == 0:
+            print('Not Weird')
+
+    else:
+        print('Invalid')
+
+--250421--
+CODE FAILED - 2/8 TEST CASES FAILED.
+import math, os, random, re, sys
+
+def evenOdd (n):
+
+    # constraint = 1 <= n <= 100
+    if n >=1 and n <= 100:
+   
+        # Rule 1: if n is odd print Weird
+        if n%2 != 0:
+            print('Weird')
+        
+        # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+        elif n%2 == 0 and n in range (2,6):
+            print('Not Weird')
+
+        # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+        elif n%2 == 0 and n in range (6,21): # elif n%2 in range (7,20):
+            print('Not Weird')
+
+        # Rule 4: if n is even and greater than 20 print Not Weird
+        elif n > 20 and n%2 == 0:
+            print('Not Weird')
+
+    else:
+        print('Invalid')
+
+
+--250421--
+CODE DID NOT WORK - 2/8 TEST CASES FAILED.
+220421: Submitted again. Code still did not work. Failed 2/8 test cases.
+220421: Moved rule 4 to top of function - works correctly. Refer to ifElse_hr_mcCode(6).py.
+
+# Rule 1: if n is odd print Weird
+    if n%2 != 0:
+        print('Weird')
+    
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif n%2 == 0 and n in range (2,6):
+        print('Not Weird')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif n%2 == 0 and n in range (6,21): # elif n%2 in range (7,20):
+        print('Not Weird')
+
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    elif n > 20 and n%2 == 0:
+        print('Not Weird')
+
+
+--250421--
+CODE DID NOT WORK - 2/8 TEST CASES FAILED.
+
+import math, os, random, re, sys
+
+def evenOdd (n):
+   
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    if n > 20 and n%2 == 0:
+        print('Not Weird')
+
+    # Rule 1: if n is odd print Weird
+    elif n%2 != 0:
+        print('Weird')
+    
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif n%2 == 0 and n in range (2,6):
+        print('Not Weird')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif n%2 == 0 and n in range (6,21): # changed upper bound to 21 # elif n%2 in range (7,20):
+        print('Not Weird')
+
+
+--250421--
+CODE DID NOT WORK - 2/8 TEST CASES FAILED.
+
+import math, os, random, re, sys
+
+def evenOdd (n):
+   
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    if n > 20 and n%2 == 0:
+        print('Not Weird')
+
+    # Rule 1: if n is odd print Weird
+    elif n%2 != 0:
+        print('Weird')
+    
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif n%2 == 0 and n in range (2,6):
+        print('Not Weird')
+
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif n%2 == 0 and n in range (6,20): # elif n%2 in range (7,20):
+        print('Not Weird')
+
 
 --070421--
 import math, os, random, re, sys

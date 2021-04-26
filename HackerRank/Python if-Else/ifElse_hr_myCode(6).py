@@ -3,24 +3,33 @@
 import math, os, random, re, sys
 
 def evenOdd (n):
+
+    # constraint = 1 <= n <= 100
+    if n >=1 and n <= 100:
    
-    # Rule 4: if n is even and greater than 20 print Not Weird
-    if n > 20 and n%2 == 0:
-        print('Not Weird')
+        # Rule 1: if n is odd print Weird
+        if n%2 != 0:
+            print('Weird')
+        
+        # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+        elif n%2 == 0 and n in range (2,6):
+            print('Not Weird')
 
-    # Rule 1: if n is odd print Weird
-    elif n%2 != 0:
-        print('Weird')
-    
-    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
-    elif n%2 == 0 and n in range (2,6):
-        print('Not Weird')
+        # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+        elif n%2 == 0 and n in range (6,21): # elif n%2 in range (7,20):
+            print('Not Weird')
 
-    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
-    elif n%2 == 0 and n in range (6,20): # elif n%2 in range (7,20):
-        print('Not Weird')
+        # Rule 4: if n is even and greater than 20 print Not Weird
+        elif n > 20 and n%2 == 0:
+            print('Not Weird')
 
+    else:
+        print('Invalid')
 
+# constraint
+evenOdd(500) # out[500]: Invalid - Correct
+
+'''
 # rule 1
 evenOdd(3) # out[3]: Weird - Correct
 evenOdd(1) # out[1]: Weird - Correct
@@ -51,8 +60,12 @@ evenOdd(16) # out[16]: Not Weird
 evenOdd(18) # out[18]: Not Weird
 evenOdd(20) # out[20]: Not Weird
 # 090421: Tested outputs for rule 3 - ALL CORRECT
+'''
 
+'''
 # rule 4
 evenOdd(24) # out[24]: Not Weird
 evenOdd(100) # out[100]: Not Weird
 # 120421: Tested outputs for rule 4 - ALL CORRECT
+# 220421: Moved rule 4 to top of function - works correctly
+'''
