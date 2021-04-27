@@ -29,6 +29,7 @@ STEPS
 21.Submit solution in HR. - DOING
 
 NOTES
+270421: Waiting for KJ to review code. Will continue to work on it while I'm waiting.
 260421: Emailed KJ links to GitHub repo to review code.
 250421: Submitted again. Code still did not work. Failed 3/8 test cases. (refer to failed code for edits).
 250421: Submitted again. Code still did not work. Failed 2/8 test cases.
