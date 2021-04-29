@@ -1,0 +1,63 @@
+PROBLEM SPEC
+Given an integer n, perform the following conditional actions:
+    - if n is odd, print Weird.
+    - if n is even and in the inclusive range 2 to 5, print Not Weird.
+    - if n is even and in the inclusive range of 6 to 20, print Weird.
+    - if n is even and greater than 20, print Not Weird.
+
+--input format--
+a single line containing a positive integer, n.
+
+--constraints--
+1 <= n <= 100 
+constraint expplained in plain english: 
+    - n has to be in between 1 and 100. 
+    - n has to be equal to or greater than 1 and less than or equal to 100.
+    - if n exceeds this range the input is invalid.
+
+REQUIREMENTS
+1.1<= n <=100 - Constraint: n cannot exceed this range.
+2.if n is odd, print Weird.
+3.if n is even and between inclusive range 2 to 5, print Not Weird.
+4.if n is even and between inclusive range 2 to 5, print Weird.
+5.if n is even and greater than 20, print Not Weird.
+
+BEST VERSION OF MY CODE
+failed 2/8 test cases.
+decided to work with this version of the code.
+it includes the constraint and has the rules in order.
+it only failed 2/8 test cases. Other versions also only failed 2/8 test cases but I think this captures all the requirements effectively.
+
+--270321--
+SUBMITTED CODE IN HR.
+FAILED HIDDEN TESTS. FAILED 2/8 TESTS.
+
+import math, os, random, re, sys
+
+def main_combined(a):
+    even = a%2
+
+    # constraint: 1 <= n <= 100 | no output if input invalid
+    if a <= 1 or a >= 100:
+        print('Invalid input')
+    
+    # Rule 1: if n is odd print Weird
+    elif even != 0:
+        print('Weird')
+
+    # Rule 2: if n is even and in the inlcusive range of 2 to 5 print Not Weird
+    elif a in range(2,5) and even == 0: 
+        print('Not Weird')
+    
+    # Rule 3: if n is even and in the inclusive range of 6 to 20 print Weird
+    elif a in range(6,20) and even == 0:
+        print('Weird')
+    
+    # Rule 4: if n is even and greater than 20 print Not Weird
+    elif a > 20 and (a%2) == 0:
+        print('Not Weird')
+
+ANALYSIS 
+each requirement broken down 
+try to pinpoint what requirement(s) are not being met.
+

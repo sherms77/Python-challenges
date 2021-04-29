@@ -31,6 +31,7 @@ STEPS
 23.Submit solution in HR. - DOING
 
 NOTES
+290421: Working on step 21.
 290421: Added new steps - 21-22. Original step 21 has now become 23.
 270421: Replicated code (in ifElse_hr_myCode(6).py) from if-Else_hr_refactored(fb1).py. Didn't work - constraint didn't work.
 270421: Waiting for KJ to review code. Will continue to work on it while I'm waiting.
@@ -470,7 +471,7 @@ main_combined(100) # works - out[100]: Invalid input - bc its <=1
 
 --290321--
 CHANGED RULE FOR INVALID INPUT.
-CODE DID WORK WORK.
+CODE DID NOT WORK.
 ALL OUTPUTS WERE INVALID.
 
 import math, os, random, re, sys
