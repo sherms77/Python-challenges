@@ -16,10 +16,10 @@ constraint expplained in plain english:
     - if n exceeds this range the input is invalid.
 
 REQUIREMENTS
-1.1<= n <=100 - Constraint: n cannot exceed this range.
+1.1<= n <=100 - Constraint: n cannot be above or below this range. Problem spec does not specify action for invalid input.
 2.if n is odd, print Weird.
 3.if n is even and between inclusive range 2 to 5, print Not Weird.
-4.if n is even and between inclusive range 2 to 5, print Weird.
+4.if n is even and between inclusive range 6 to 20, print Weird.
 5.if n is even and greater than 20, print Not Weird.
 
 BEST VERSION OF MY CODE
@@ -58,6 +58,6 @@ def main_combined(a):
         print('Not Weird')
 
 ANALYSIS 
-each requirement broken down 
+each requirement broken down.
 try to pinpoint what requirement(s) are not being met.
-
+300421: I rewrote code in if-Else(7).py and analysed each requirement. Code works as intended.

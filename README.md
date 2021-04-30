@@ -7,6 +7,6 @@ Python coding challenges.
 3. HackerRank.
  
 # Status
-- Active
-- Working on: Python if-Else (HackerRank) 
+- Inactive
 - Not started: abecedarian (Think cs)
+- Finished (most recent): Python if-Else (HackerRank) | Finished 29 Apr 2021

@@ -26,11 +26,13 @@ STEPS
 18.Send to KJ for review - DONE
 19.Review KJs feedback - DONE
 20.Modify based on KJ's feedback if required - DONE
-21.Analyse problem and my previous code submissions - DOING
-22.Write fresh code based on analysis - NOT STARTED
-23.Submit solution in HR. - DOING
+21.Analyse problem and my previous code submissions - DONE
+22.Write fresh code based on analysis - DONE
+23.Submit solution in HR. - DONE | PASSED!
 
 NOTES
+300421: Finished steps 21-23. Submitted code. Passed! Final code is in if-Else(7).py.
+300421: Sent KJ status email.
 290421: Working on step 21.
 290421: Added new steps - 21-22. Original step 21 has now become 23.
 270421: Replicated code (in ifElse_hr_myCode(6).py) from if-Else_hr_refactored(fb1).py. Didn't work - constraint didn't work.

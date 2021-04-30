@@ -1,0 +1,61 @@
+MIME-Version: 1.0
+Date: Fri, 30 Apr 2021 07:08:19 +1000
+Message-ID: <CAAsP4duQZE3bhr52Knofsp-yCQGEi-_wcPmO_tKRmbFHJoQgJg@mail.gmail.com>
+Subject: if-Else: Status
+From: Sherman Bernard <sherms77@gmail.com>
+To: kavi12.jadhav@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000113b1c05c122e5cf"
+
+--000000000000113b1c05c122e5cf
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+I committed changes to the repo this morning. It shows my work from
+yesterday. If you refer to the notes file you can see what I have done. The
+link in my last email will take you to the GitHub repo.
+
+I was looking over the code that fb users one and two gave me and note that
+they did not use a condition for the constraint in the problem spec (from
+what I can tell).
+
+I don't know if the way they wrote the code and the absence of the
+constraint means that the constraint is applied by default.
+
+I replicated fb user one's code and it failed some of my tests for the
+constraint so his code is flawed imo.
+
+I don't want to use someone else's code. I know I can as long as I
+understand it, but I would rather come up with my own solution (even if
+it's not as elegant as others) to help me understand it for myself.
+
+Anyway, let me know what you think of my code when you get time. I read the
+fb message you sent me yesterday. Thanks for trying to fit in reviewing my
+code.
+
+Regards
+Sherman
+
+--000000000000113b1c05c122e5cf
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi,<div><br></div><div>I committed changes to the repo thi=
+s=C2=A0morning. It shows my work from yesterday. If you refer to the notes =
+file you can see what I have done. The link in my last email will take you =
+to the GitHub repo.</div><div><br></div><div>I was looking over the code th=
+at fb users one and two gave me and note that they did not use a condition =
+for the constraint in the problem spec (from what I can tell).</div><div><b=
+r></div><div>I don&#39;t know if the way they wrote the code and the absenc=
+e of the constraint means that the constraint is applied by default.</div><=
+div><br></div><div>I replicated fb user one&#39;s code and it failed some o=
+f my tests for the constraint so his code is flawed imo.</div><div><br></di=
+v><div>I don&#39;t want to use someone else&#39;s code. I know I can as lon=
+g as I understand it, but I would rather come up with my own solution (even=
+ if it&#39;s not as elegant as others) to help me understand it for myself.=
+</div><div><br></div><div>Anyway, let=C2=A0me know what you think of my cod=
+e when you get time. I read the fb message you sent me yesterday. Thanks fo=
+r trying to fit in reviewing my code.</div><div><br></div><div>Regards</div=
+><div>Sherman</div></div>
+
+--000000000000113b1c05c122e5cf--
