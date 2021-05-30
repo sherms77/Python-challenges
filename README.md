@@ -9,4 +9,4 @@ Python coding challenges.
 # Status
 - Inactive
 - Not started: abecedarian (Think cs)
-- Finished (most recent): Python if-Else (HackerRank) | Finished 29 Apr 2021
+- Finished (most recent): buckets (Think cs) | Finished 29 May 2021
