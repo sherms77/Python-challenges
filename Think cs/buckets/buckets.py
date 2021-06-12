@@ -18,8 +18,8 @@ def inBucket(t, low, high):
     return count
 
 # 9.7 - many buckets
-# x = int(input('Enter the number of buckets you want to create: ')) # number of buckets to create
-numBuckets = 8
+x = int(input('Enter the number of buckets you want to create: ')) # number of buckets to create
+numBuckets = x
 buckets = [0] * numBuckets
 bucketWidth = 1.0 / numBuckets
 y = int(input('Enter a size for the random numbers list: ')) # size of random numbers list
