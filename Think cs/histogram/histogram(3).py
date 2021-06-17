@@ -1,7 +1,4 @@
-# 110621: i have met the requirements of the exercise
-# 110621: i have not implemented the code from 9.8 - single pass solution in this solution
-# 110621: unsure if i should implement the code from 9.8?
-# 170621: i will try to implement the code from 9.8 - refer to histogram(3).py
+# 170621: trying to implement 9.8 code here
 
 # counts the values from each bucket
 def inBucket(t, low, high):
