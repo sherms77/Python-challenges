@@ -1,4 +1,6 @@
 # 170621: trying to implement 9.8 code here
+# 240621: decided not to implement 'single-pass' solution from 9.8 
+# 240621: Finalised the exercise - histogram(4).py is final version
 
 # counts the values from each bucket
 def inBucket(t, low, high):

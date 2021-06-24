@@ -1,8 +1,0 @@
-How to think like a computer scientist: Learning with Python (2012)
-
-Note: move this file to Python challenges folder and save in 9.8 exercise folder. Save .txt file here explaining that its in another folder, why and show path.
-
-This file contains my:
-    - issues with chapter 9,
-    - how I solved or worked around them, and
-    - conclusion.
