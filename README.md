@@ -8,5 +8,4 @@ Python coding challenges.
  
 # Status
 - Inactive
-- Not started: abecedarian (Think cs)
-- Finished (most recent): histogram (Think cs) | Finished 11 June 2021
+- Finished (most recent): abecedarian (Think cs) | Finished 28 July 2021

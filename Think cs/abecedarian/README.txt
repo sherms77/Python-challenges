@@ -15,16 +15,17 @@ Kack
 Lack
 Mack
 Nack
-Oack
+Oack # should be Ouack
 Pack
-Qack
+Qack # should be Quack
 
 * "Ouack" and "Quack" are misspelled.
 
 Exercise - As an exercise, modify the program to fix this error.
 
 NOTES
-Above code is Python 2.
+- Above code is Python 2.
+- Refer to abecedarian.py for solution.
 
 STATUS
-Not started.
+Finished - 28 July 2021
